@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+.container {
+  margin-top: 20px;
+}
+
+label {
+  font-size: small;
+}
+
+.info {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  text-align: justify;
+  margin-right: 50px;
+}
+#form {
+  padding: 30px;
+  margin: 0;
+}
+
+#create {
+  background-color: rgb(60, 183, 142);
+  margin-top: 10px;
+  transform: translateY(80px);
+
+  border: 0px;
+}
+p {
+  margin-left: 30px;
+  font-size: small;
+}
+a {
+  color: rgb(60, 183, 142);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(60, 183, 142);
+}
+@media (min-width: 1600px) {
+  html {
+    zoom: 130%;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    zoom: 200%;
+  }
+}
+
+#join {
+  font-style: italic;
+  color: rgb(60, 183, 142);
+}
